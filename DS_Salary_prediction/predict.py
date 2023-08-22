@@ -11,7 +11,7 @@ def load_data():
 df=load_data()
 # Load the saved model and other data
 def load_model():
-    with open('saved_steps1.pkl', 'rb') as file:
+    with open('DS_Salary_prediction/saved_steps1.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 data=load_model()
