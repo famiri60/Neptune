@@ -5,7 +5,7 @@ import plotly.express as px
 
 @st.cache
 def load_data():
-    df = pd.read_csv("./clean_data3.csv")
+    df = pd.read_csv("DS_Salary_Prediction/clean_data3.csv")
     return df
 
 def explore_page():
