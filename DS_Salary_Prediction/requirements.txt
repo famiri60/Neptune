@@ -1,0 +1,10 @@
+matplotlib
+pandas
+numpy
+seaborn
+streamlit
+scikit-learn
+pillow>=4
+seaborn
+plotly
+
