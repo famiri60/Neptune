@@ -6,7 +6,7 @@ from PIL import Image
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("./clean_data3.csv")
+    df = pd.read_csv("DS_Salary_Prediction/clean_data3.csv")
     return df
 df=load_data()
 # Load the saved model and other data
