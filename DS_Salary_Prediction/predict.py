@@ -239,7 +239,7 @@ def estimation_page():
                 st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}")
                 #if (seniority=='jr') & (degree=='Master') | (avg_salary[0]==min_salary[0]==max_salary[0]):
                     #avg_salary=regressor_loaded0.predict(X)
-                    #st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}")
+                    #st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}K")
                 #else:
 
                     #avg_salary=regressor_loaded0.predict(X)
