@@ -10,7 +10,7 @@ page = st.sidebar.selectbox("Predict or Explore", ("Predict", "Explore"))
 
 if page=="Predict":
     estimation_page()
-    add_bg_from_local('background.jpg')
+    add_bg_from_local('DS_Salary_Prediction/background.jpg')
 else:
     explore_page()
     
