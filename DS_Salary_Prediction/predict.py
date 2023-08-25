@@ -48,7 +48,7 @@ def estimation_page():
     title = '<p style="font-family:sans-serif; color:Purple; font-size: 45px">Data Scientist Salary Estimation</p>'
     st.markdown(title, unsafe_allow_html=True)
     
-    image = Image.open('data-science.jpg')
+    image = Image.open('DS_Salary_Prediction/data-science.jpg')
     st.image(image, caption='Image: Wright Studio/Shutterstock [Reference: https://www.techrepublic.com/article/cheat-sheet-how-to-become-a-data-scientist/]')
     
      
