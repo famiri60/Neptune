@@ -236,7 +236,7 @@ def estimation_page():
                 X = X.astype(float)
                 avg_salary=regressor_loaded0.predict(X)
                 st.write("For a", seniority, "data scientist in", location, "with a", degree, "degree and skills in", list_string, "working for a", size, sector, "company with a rating of", str(rating), ",")
-                st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}")
+                st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}K")
                 #if (seniority=='jr') & (degree=='Master') | (avg_salary[0]==min_salary[0]==max_salary[0]):
                     #avg_salary=regressor_loaded0.predict(X)
                     #st.subheader(f"The estimated average salary is: ${avg_salary[0]:.2f}K")
