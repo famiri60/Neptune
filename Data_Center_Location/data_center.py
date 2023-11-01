@@ -6,7 +6,7 @@ import re
 
 # Load your data into a DataFrame
 # Replace 'data.csv' with your actual data file
-df = pd.read_csv('combined_data.csv')
+df = pd.read_csv('Data_Center_Location/combined_data.csv')
 
 # Create a Streamlit app
 st.title("Data Center Locations")
