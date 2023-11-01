@@ -140,7 +140,7 @@ else:
     filtered_df = df[df['Company'] == selected_company]
     
     # Load the company logo based on the selected company
-    logo_image_path = f'images/{selected_company.lower()}_datacenter.png'  # Adjust the path as needed
+    logo_image_path = f'Data_Center_Location/images/{selected_company.lower()}_datacenter.png'  # Adjust the path as needed
     col1, col2 = st.columns(2)
 
     # In the first column, put fig and bar_chart1
